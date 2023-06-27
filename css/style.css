@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background: linear-gradient(to right, white, #E5E6E4);
+}
+
+section{
+    padding: 40px;
+}
+
+.container{
+    max-width: fit-content;
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+
+.img-fluid{
+    max-width: 80%;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.logo img{
+    width: 150px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.items a:link{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.items a:hover{
+    color: white;
+}
+
+.active{
+    color: 	#5A5A5A !important;
+}
+
+button{
+    font-size: large;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(to right, white, #E5E6E4);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background: #2C5D87;
+    color: white;
+    border: none
+}
+
+.More-PS5-Feature button{
+    padding-top: 50px;
+}
+
+
+.row{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+
+.info{
+    text-align: center;
+    color: #5880A2;
+    stroke: white;
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.heading{
+    font-size: 3rem;
+    margin-bottom: 0.3rem;
+}
+
+.sub-heading{
+    font-size: 1.5rem;
+
+}
